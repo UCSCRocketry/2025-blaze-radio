@@ -1,4 +1,4 @@
-26752815787415542
+26765220837262395
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -21,7 +21,21 @@ Avionics_Feet
 4
 3
 Avionics_Feet
+Blaze
+
+
+0
+0
+0
+Avionics_Feet
 Emi
+
+
+0
+0
+0
+Avionics_Feet
+JLC_Fiducial
 
 
 0
@@ -56,6 +70,13 @@ MPM3610
 5
 4
 Avionics_Feet
+MPM3610QGV-P
+
+MPM3610GQV-P 
+0
+22
+20
+Avionics_Feet
 MS5611
 GY-63
 
@@ -84,6 +105,20 @@ NeoPixel_Stick_8
 8
 8
 Avionics_Feet
+OSC_SIT1532AI-J4-DCC-32.768D
+
+
+0
+4
+4
+Avionics_Feet
+PQFN24P43_350X300X102L35X23N
+
+
+0
+24
+24
+Avionics_Feet
 RFM69HCW
 Adafruit RFM69HCW Transceiver Radio Breakout - 433 MHz - RadioFruit
 
@@ -111,6 +146,20 @@ Adafruit SPI FLASH Breakout W25Q128 - 128 MBit / 16 MByte
 0
 9
 7
+Avionics_Feet
+XDCR_KX003-1077
+
+
+0
+12
+12
+Avionics_Feet
+XDCR_MS561101BA03-50
+
+
+0
+8
+8
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826

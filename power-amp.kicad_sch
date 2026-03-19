@@ -905,22 +905,22 @@
 		)
 	)
 	(junction
-		(at 81.28 63.5)
+		(at 80.01 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10e7d36a-ac76-48f5-91f8-df90e1997c64")
+	)
+	(junction
+		(at 93.98 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44862fe3-3339-4768-9f43-aa33a7c9be6a")
 	)
 	(junction
 		(at 111.76 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61a919e9-01d2-4c48-82a4-f2724f6ba6cf")
-	)
-	(junction
-		(at 91.44 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61b82a61-2b30-4b6c-8b49-0fca9b33b0d5")
 	)
 	(junction
 		(at 101.6 57.15)
@@ -954,7 +954,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 44.45) (xy 91.44 63.5)
+			(xy 93.98 44.45) (xy 93.98 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1004,23 +1004,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 63.5) (xy 81.28 63.5)
+			(xy 77.47 63.5) (xy 80.01 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3df562f8-229c-4653-a7d6-5b33a391697e")
-	)
-	(wire
-		(pts
-			(xy 95.25 44.45) (xy 91.44 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7820f231-1641-4eb2-a836-9c736487b415")
 	)
 	(wire
 		(pts
@@ -1044,6 +1034,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 44.45) (xy 95.25 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fc8e63-2923-4fac-a945-2f2bf912b269")
+	)
+	(wire
+		(pts
 			(xy 102.87 53.34) (xy 101.6 53.34)
 		)
 		(stroke
@@ -1054,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 63.5) (xy 83.82 63.5)
+			(xy 80.01 63.5) (xy 82.55 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1084,6 +1084,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 63.5) (xy 88.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e63218-8856-4d3d-b2c6-d37b91f195a8")
+	)
+	(wire
+		(pts
+			(xy 93.98 63.5) (xy 96.52 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2bcb0d-2d87-4464-bb7c-700fd1bbb882")
+	)
+	(wire
+		(pts
 			(xy 109.22 53.34) (xy 107.95 53.34)
 		)
 		(stroke
@@ -1091,16 +1111,6 @@
 			(type default)
 		)
 		(uuid "d0ca6c1b-37be-454a-8633-0ceabde07d07")
-	)
-	(wire
-		(pts
-			(xy 88.9 63.5) (xy 91.44 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1afbfa6-2098-4754-baaf-0cc74205c4c3")
 	)
 	(wire
 		(pts
@@ -1351,7 +1361,7 @@
 	)
 	(hierarchical_label "RF_IN"
 		(shape input)
-		(at 78.74 63.5 180)
+		(at 77.47 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1813,7 +1823,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 93.98 63.5 90)
+		(at 91.44 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1821,7 +1831,7 @@
 		(dnp no)
 		(uuid "8c541fc5-a65a-40aa-bcbe-d26b0d5de3b6")
 		(property "Reference" "C23"
-			(at 93.9863 57.15 90)
+			(at 91.4463 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +1839,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 95.25 59.69 90)
+			(at 91.186 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1847,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 93.98 63.5 0)
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 63.5 0)
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1865,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 93.98 63.5 0)
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1874,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 93.98 63.5 90)
+			(at 91.44 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1883,7 @@
 			)
 		)
 		(property "Part_Number" "GRM188C71E225KE11D"
-			(at 93.98 63.5 90)
+			(at 91.44 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1908,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 81.28 66.04 180)
+		(at 80.01 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1906,7 +1916,7 @@
 		(dnp no)
 		(uuid "93af08cf-6fc2-42cd-af65-6c243f2338da")
 		(property "Reference" "C25"
-			(at 74.168 65.786 0)
+			(at 72.898 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +1925,7 @@
 			)
 		)
 		(property "Value" "1.5pF"
-			(at 74.168 68.326 0)
+			(at 72.898 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1934,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 81.28 66.04 0)
+			(at 80.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 66.04 0)
+			(at 80.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1952,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 81.28 66.04 0)
+			(at 80.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +1961,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 81.28 66.04 0)
+			(at 80.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1970,7 @@
 			)
 		)
 		(property "Part_Number" "GRM1555C1H1R5CA1D"
-			(at 81.28 66.04 0)
+			(at 80.01 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,7 +1995,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 68.58 0)
+		(at 80.01 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1994,7 +2004,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ac1ffcd-dc08-4cb7-ae79-80502d10ceb2")
 		(property "Reference" "#PWR035"
-			(at 81.28 74.93 0)
+			(at 80.01 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2013,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 73.66 0)
+			(at 80.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2021,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 68.58 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 68.58 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +2039,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 68.58 0)
+			(at 80.01 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2265,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 86.36 63.5 90)
+		(at 85.09 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2263,7 +2273,7 @@
 		(dnp no)
 		(uuid "ecd671a2-095d-4655-9459-a7129bcca50a")
 		(property "Reference" "L7"
-			(at 86.36 58.42 90)
+			(at 85.09 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2281,7 @@
 			)
 		)
 		(property "Value" "5.1nH"
-			(at 86.36 60.96 90)
+			(at 85.09 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2279,7 +2289,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 86.36 63.5 0)
+			(at 85.09 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,7 +2298,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 63.5 0)
+			(at 85.09 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2307,7 @@
 			)
 		)
 		(property "Description" "0603CS-5N1XJL"
-			(at 86.36 63.5 0)
+			(at 85.09 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +2316,7 @@
 			)
 		)
 		(property "Manufacturer" "Coincraft"
-			(at 86.36 63.5 90)
+			(at 85.09 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2325,7 @@
 			)
 		)
 		(property "Part_Number" "0603CS-5N1XJLU"
-			(at 86.36 63.5 90)
+			(at 85.09 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
